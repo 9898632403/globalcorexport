@@ -74,7 +74,7 @@ const Contact = () => {
         from_name: "",
         from_email: "",
         phone: "",
-        country_code: "+91",
+        country_code: "",
         company: "",
         country: "",
         product: "",
