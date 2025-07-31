@@ -1,0 +1,30 @@
+# 👉 Don't track dependencies
+node_modules/
+
+# 👉 Don't track sensitive environment secrets
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# 👉 Don't track build output (dist folder)
+dist/
+build/
+.vite/
+
+# 👉 Don't track editor settings
+.vscode/
+.idea/
+
+# 👉 Don't track system files
+.DS_Store
+Thumbs.db
+
+# 👉 Don't track logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 👉 Optional: OS-specific
+*.log
