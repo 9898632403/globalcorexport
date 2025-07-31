@@ -325,8 +325,8 @@ section {
 
 .stat-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(135deg, #F2F2F2, #E6E6FA);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #F2F2F2, #E6E6FA) !important; */
 }
 
 /* More specific selector for homepage stats */
